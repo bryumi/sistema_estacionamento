@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&family=Roboto+Condensed&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,22 +6,62 @@
 }
 
 body {
-    background-color: rgb(172, 172, 238);
-    font-family:sans-serif;
+    background-color: rgb(47, 47, 59);
+    font-family:'Roboto Condensed', sans-serif;
     padding: 30px;
 }
-
-div {
+.cadastro {
     display: flex;
-    margin: 30px;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-items: center;
+    min-height: 25px;
+    padding: 50px;
+}
+
+div.cadastro input {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #9b9b9b;
+    border-radius: 5px;
+    vertical-align: bottom;
+    margin-left: 20px;
+
+}
+
+button#cadastrar{
+
+    width: 537px;
+    height: 33px;
+    text-align: center;
+
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(24, 172, 103);
+    color: #fff;
+    border: none;
+
+    border-radius: 5px;
+    margin-left: 210px;
+    transition: all 500ms;
+}
+button#cadastrar:hover{
+    background-color: #fff;
+    color: rgb(24, 172, 103);
+}
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 10px;
+    padding: 50px 50px 0 200px;
 }
 
 thead {
     height: 30px;
-    background-color: rgb(228, 212, 187); 
+    background-color: rgb(90, 209, 160); 
+   
 }
-thead > tr > td{
-    font-size: small;
 
-    
+#patio {
+   color: #fff;
 }
